@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import {InputBox} from './components/index.js'
+import InputBox from './components/InputBox'
 // import useCurrencyInfo from './hooks/useCurrencyInfo'
-import './App.css'
+import './App.css';
 
 function App() {
     return (
-        <div> 
-            {/* <div className="w-full">
+        <div className="w-full">
                 <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
                         onSubmit={(e) => {
@@ -39,15 +38,8 @@ function App() {
                         </button>
                     </form>
                 </div>
-            </div> */}
-            {/* <form>
-            
-            </form> */}
-            hello
-        </div>
+            </div>
     )
 }
                   
 export default App
-
-
